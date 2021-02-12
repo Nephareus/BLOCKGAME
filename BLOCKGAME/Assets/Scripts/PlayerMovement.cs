@@ -28,42 +28,14 @@ public class PlayerMovement : MonoBehaviour
             rb.MovePosition(rb.position + vel * Speed * Time.fixedDeltaTime);
             if (vel.x != 0 || vel.y != 0)
             {
-                anim.SetFloat("IdleDirH", vel.x);
+            anim.SetBool("isMoving", true);
+            anim.SetFloat("IdleDirH", vel.x);
                 anim.SetFloat("IdleDirV", vel.y);
             }
             else if (vel.x == 0 && vel.y == 0)
             {
-                anim.SetBool("isPushing", false);
+                anim.SetBool("isMoving", false);
             }
-    }
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Pushable")
-        {
-            anim.SetBool("isPushing", true);
-        }
-    }
-
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Pushable")
-        {
-            if (vel.x == 0 && vel.y == 0)
-            {
-                anim.SetBool("isPushing", false);
-            }
-            else if (vel.x != 0 || vel.y != 0)
-            {
-                anim.SetBool("isPushing", true);
-            }
-        }
-    }
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Pushable")
-        {
-            anim.SetBool("isPushing", false);
-        }
     }
     public void Move(InputAction.CallbackContext context)
     {

@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
     private Vector2 vel;
-    private Vector2 direction;
 
     private void Awake()
     {

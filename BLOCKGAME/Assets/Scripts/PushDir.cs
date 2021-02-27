@@ -24,6 +24,7 @@ public class PushDir : MonoBehaviour
         {
             anim.SetBool("isPushing", true);
             gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            gameObject.tag = "Player";
         }
     }
         
@@ -33,6 +34,7 @@ public class PushDir : MonoBehaviour
         {
             anim.SetBool("isPushing", false);
             gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            gameObject.tag = "Pushable";
         }
     }
         
@@ -42,6 +44,7 @@ public class PushDir : MonoBehaviour
         {
             anim.SetBool("isPushing", true);
             gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            gameObject.tag = "Player";
         }
     }
 }

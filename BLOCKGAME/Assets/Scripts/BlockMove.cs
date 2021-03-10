@@ -24,8 +24,13 @@ public class BlockMove : MonoBehaviour
     {
         if (anim.GetBool("BlockMove"))
             {
+            gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
             rb.MovePosition(rb.position + vel * Speed * Time.fixedDeltaTime);
-            gameObject.tag = "Player";
+            gameObject.tag = "Pusher";
+        }
+        else
+        {
+            gameObject.tag = "Pushable";
         }
 
 

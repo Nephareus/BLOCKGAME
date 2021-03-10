@@ -20,17 +20,17 @@ public class PushDir : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher")
         {
             anim.SetBool("isPushing", true);
             gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-            gameObject.tag = "Player";
+            gameObject.tag = "Pusher";
         }
     }
         
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher")
         {
             anim.SetBool("isPushing", false);
             gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
@@ -40,11 +40,11 @@ public class PushDir : MonoBehaviour
         
     void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher")
         {
             anim.SetBool("isPushing", true);
             gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-            gameObject.tag = "Player";
+            gameObject.tag = "Pusher";
         }
     }
 }

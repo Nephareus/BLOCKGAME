@@ -136,8 +136,8 @@ GameObject:
   - component: {fileID: 261567794}
   - component: {fileID: 261567791}
   - component: {fileID: 261567793}
-  - component: {fileID: 261567797}
   - component: {fileID: 261567798}
+  - component: {fileID: 261567792}
   m_Layer: 0
   m_Name: Directional Block
   m_TagString: Pushable
@@ -167,6 +167,27 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &261567792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261567790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ef2be125660b64d83125d03f8cba4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 5
+  rb: {fileID: 261567794}
+  anim: {fileID: 703902907}
+  col: {fileID: 261567791}
+  coldistrigger: {fileID: 261567791}
+  BMove: 0
+  PushD: 1
+  disabletrig: 1
+  dyn: 1
 --- !u!58 &261567793
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -263,27 +284,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261567790}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.5, y: 1.5, z: 0}
+  m_LocalPosition: {x: -4.5, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &261567797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 261567790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b1991cd369967f4ca5063e66af40009, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 261567794}
-  col: {fileID: 261567791}
-  anim: {fileID: 703902907}
 --- !u!95 &261567798
 Animator:
   serializedVersion: 3
@@ -316,8 +322,8 @@ GameObject:
   - component: {fileID: 323387649}
   - component: {fileID: 323387648}
   - component: {fileID: 323387647}
-  - component: {fileID: 323387646}
   - component: {fileID: 323387645}
+  - component: {fileID: 323387646}
   m_Layer: 0
   m_Name: Basic Block
   m_TagString: Pushable
@@ -353,12 +359,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 323387644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b1991cd369967f4ca5063e66af40009, type: 3}
+  m_Script: {fileID: 11500000, guid: f0ef2be125660b64d83125d03f8cba4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Speed: 5
   rb: {fileID: 323387649}
-  col: {fileID: 323387648}
   anim: {fileID: 703902907}
+  col: {fileID: 323387648}
+  coldistrigger: {fileID: 323387648}
+  BMove: 0
+  PushD: 1
+  disabletrig: 0
+  dyn: 0
 --- !u!58 &323387647
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -471,7 +483,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323387644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5, y: -0.5, z: 0}
+  m_LocalPosition: {x: -3.5, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -583,7 +595,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328409766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -1.5, z: 0}
+  m_LocalPosition: {x: 0.5, y: -1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -839,7 +851,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703902901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.5, z: 0}
+  m_LocalPosition: {x: -1.5, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1099,7 +1111,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939651575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.5, y: 1.5, z: 0}
+  m_LocalPosition: {x: 2.5, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1262,7 +1274,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182044142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5, y: 2.5, z: 0}
+  m_LocalPosition: {x: 1.5, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1281,11 +1293,10 @@ GameObject:
   - component: {fileID: 1185775917}
   - component: {fileID: 1185775921}
   - component: {fileID: 1185775916}
-  - component: {fileID: 1185775923}
-  - component: {fileID: 1185775920}
   - component: {fileID: 1185775922}
   - component: {fileID: 1185775924}
   - component: {fileID: 1185775925}
+  - component: {fileID: 1185775920}
   m_Layer: 0
   m_Name: Lockable Block
   m_TagString: Pushable
@@ -1389,7 +1400,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185775915}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5, y: 1.5, z: 0}
+  m_LocalPosition: {x: -1.5, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1404,12 +1415,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185775915}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b1991cd369967f4ca5063e66af40009, type: 3}
+  m_Script: {fileID: 11500000, guid: f0ef2be125660b64d83125d03f8cba4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Speed: 5
   rb: {fileID: 1185775917}
-  col: {fileID: 1185775916}
   anim: {fileID: 703902907}
+  col: {fileID: 1185775921}
+  coldistrigger: {fileID: 1185775921}
+  BMove: 1
+  PushD: 1
+  disabletrig: 1
+  dyn: 1
 --- !u!58 &1185775921
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1417,7 +1434,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185775915}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1445,21 +1462,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1185775923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185775915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dee8059659a92a468d3d0fa2c1a2741, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 5
-  rb: {fileID: 1185775917}
-  anim: {fileID: 703902907}
 --- !u!114 &1185775924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1487,8 +1489,8 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1185775923}
-        m_TargetAssemblyTypeName: BlockMove, Assembly-CSharp
+      - m_Target: {fileID: 1185775920}
+        m_TargetAssemblyTypeName: Blocks, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 0
         m_Arguments:
@@ -1638,7 +1640,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1228148918}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 2.5, z: 0}
+  m_LocalPosition: {x: 3.5, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1806,7 +1808,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347698879}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 0.5, z: 0}
+  m_LocalPosition: {x: 3.5, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1932,7 +1934,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033708312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5, y: 0.5, z: 0}
+  m_LocalPosition: {x: 1.5, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

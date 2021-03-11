@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PushEventPlayer.cs" />
+    <Compile Include="Assets\Scripts\LockDetect.cs" />
     <Compile Include="Assets\Scripts\PushDirOld.cs" />
     <Compile Include="Assets\Scripts\BlockMove.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
@@ -65,7 +66,8 @@
     <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\PushDir.cs" />
     <Compile Include="Assets\Artwork\Sprites\Environment\locker.cs" />
-    <Compile Include="Assets\Scripts\LockDetect.cs" />
+    <Compile Include="Assets\Scripts\Blocks.cs" />
+    <Compile Include="Assets\Scripts\OldBlockmove.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -9,7 +9,9 @@ public class BlockMove : MonoBehaviour
     public Rigidbody2D rb;
 
     public Animator anim;
+    public Collider2D coltrigger;
     private Vector2 vel;
+    public bool BMove;
 
     private void Awake()
     {
@@ -22,24 +24,30 @@ public class BlockMove : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (anim.GetBool("BlockMove"))
-            {
-            gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-            rb.MovePosition(rb.position + vel * Speed * Time.fixedDeltaTime);
-            gameObject.tag = "Pusher";
-        }
-        else
+        if (BMove == true)
         {
-            gameObject.tag = "Pushable";
+            if (anim.GetBool("BlockMove"))
+            {
+                gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                rb.MovePosition(rb.position + vel * Speed * Time.fixedDeltaTime);
+                //gameObject.tag = "Pusher";
+                gameObject.tag = "Player";
+                coltrigger.enabled = false;
+            }
+            else
+            {
+                gameObject.tag = "Pushable";
+                coltrigger.enabled = true;
+            }
         }
-
-
     }
     public void Move(InputAction.CallbackContext context)
     {
-            vel = context.ReadValue<Vector2>(); 
+        if (BMove == true)
+        {
+            vel = context.ReadValue<Vector2>();
+        }
     }
-
 }
 
 

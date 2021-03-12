@@ -185,9 +185,12 @@ MonoBehaviour:
   col: {fileID: 261567791}
   coldistrigger: {fileID: 261567791}
   BMove: 0
-  PushD: 1
-  disabletrig: 1
-  dyn: 1
+  PushDe: 1
+  PushDx: 1
+  PushDs: 1
+  disabletrig: 0
+  dyn: 0
+  PushDtrig: 1
 --- !u!58 &261567793
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -368,9 +371,12 @@ MonoBehaviour:
   col: {fileID: 323387648}
   coldistrigger: {fileID: 323387648}
   BMove: 0
-  PushD: 1
-  disabletrig: 0
-  dyn: 0
+  PushDe: 1
+  PushDx: 1
+  PushDs: 1
+  disabletrig: 1
+  dyn: 1
+  PushDtrig: 1
 --- !u!58 &323387647
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1424,9 +1430,12 @@ MonoBehaviour:
   col: {fileID: 1185775921}
   coldistrigger: {fileID: 1185775921}
   BMove: 1
-  PushD: 1
+  PushDe: 1
+  PushDx: 1
+  PushDs: 1
   disabletrig: 1
   dyn: 1
+  PushDtrig: 1
 --- !u!58 &1185775921
 CircleCollider2D:
   m_ObjectHideFlags: 0

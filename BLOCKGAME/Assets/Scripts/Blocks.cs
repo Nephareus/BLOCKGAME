@@ -13,9 +13,12 @@ public class Blocks : MonoBehaviour
     public Collider2D coldistrigger;
     private Vector2 vel;
     public bool BMove;
-    public bool PushD;
+    public bool PushDe;
+    public bool PushDx;
+    public bool PushDs;
     public bool disabletrig;
     public bool dyn;
+    public bool PushDtrig;
 
     private void Awake()
     {
@@ -53,16 +56,20 @@ public class Blocks : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (PushD == true)
+        if (PushDe == true)
         {
             //if (other.gameObject.tag == "Player")
             if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher")
             {
                 anim.SetBool("isPushing", true);
-                gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                if (PushDtrig == true)
+                {
+                    gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                }
                 gameObject.tag = "Pusher";
+                //coldistrigger.enabled = false;
             }
-            gameObject.tag = "Pusher";
+            //gameObject.tag = "Pusher";
         }
     }
 
@@ -79,16 +86,20 @@ public class Blocks : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (PushD == true)
+        if (PushDx == true)
         {
             //if (other.gameObject.tag == "Player")
             if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher")
             {
                 anim.SetBool("isPushing", false);
-                gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+                if (PushDtrig == true)
+                {
+                    gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+                }
                 gameObject.tag = "Pushable";
+                //coldistrigger.enabled = true;
             }
-            gameObject.tag = "Pushable";
+            //gameObject.tag = "Pushable";
         }
     }
 
@@ -105,16 +116,20 @@ public class Blocks : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
-        if (PushD == true)
+        if (PushDs == true)
         {
             //if (other.gameObject.tag == "Player")
             if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher")
             {
                 anim.SetBool("isPushing", true);
-                gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                if (PushDtrig == true)
+                {
+                    gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                }
                 gameObject.tag = "Pusher";
+                //coldistrigger.enabled = false;
             }
-            gameObject.tag = "Pusher";
+            //gameObject.tag = "Pusher";
         }
         //if (other.gameObject.tag == "Player")
         //if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher")

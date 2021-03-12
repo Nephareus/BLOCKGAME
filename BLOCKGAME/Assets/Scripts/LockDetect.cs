@@ -11,10 +11,12 @@ public class LockDetect : MonoBehaviour
         if (animref.GetBool("isUnlocked"))
             {
             anim.SetBool("LockDetect", false);
+            gameObject.tag = "Pushable";
         }
         else
         {
             anim.SetBool("LockDetect", true);
+            gameObject.tag = "Pusher";
         }
 
     }

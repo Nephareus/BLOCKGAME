@@ -25,14 +25,16 @@ public class locker : MonoBehaviour
     {
         if (animref.GetBool("BlockMove"))
         {
-            if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher" || other.gameObject.tag == "Pushable")
-            {
+            //if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher" || other.gameObject.tag == "Pushable")
+            if (other.gameObject.tag == "Player")
+                {
                 anim.SetBool("isUnlocked", true);
                 animref.SetBool("BlockMove", false);
             }
         }
-        else if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher" || other.gameObject.tag == "Pushable")
-        {
+        else if (other.gameObject.tag == "Player")
+        //else if (other.gameObject.tag == "Player" || other.gameObject.tag == "Pusher" || other.gameObject.tag == "Pushable")
+                {
             anim.SetBool("isUnlocked", false);
             animref.SetBool("BlockMove", true);
         }

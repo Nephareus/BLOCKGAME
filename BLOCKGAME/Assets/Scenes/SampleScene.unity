@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 261567793}
   - component: {fileID: 261567798}
   - component: {fileID: 261567792}
+  - component: {fileID: 261567797}
   m_Layer: 0
   m_Name: Directional Block
   m_TagString: Pushable
@@ -182,12 +183,10 @@ MonoBehaviour:
   Speed: 5
   rb: {fileID: 261567794}
   anim: {fileID: 703902907}
+  animref: {fileID: 261567798}
   col: {fileID: 261567791}
   coldistrigger: {fileID: 261567791}
-  BMove: 0
-  PushDe: 1
-  PushDx: 1
-  PushDs: 1
+  BMove: 1
   disabletrig: 0
   dyn: 0
   PushDtrig: 1
@@ -293,6 +292,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &261567797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261567790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8607745ac47024aa1d6afbe9253085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 703902907}
+  animref: {fileID: 261567798}
 --- !u!95 &261567798
 Animator:
   serializedVersion: 3
@@ -303,7 +316,7 @@ Animator:
   m_GameObject: {fileID: 261567790}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f58f8bf7a0202fa45bc813686c136f28, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -344,7 +357,7 @@ Animator:
   m_GameObject: {fileID: 323387644}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b1975671dca45b04a86ccc16a1805d58, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -368,15 +381,13 @@ MonoBehaviour:
   Speed: 5
   rb: {fileID: 323387649}
   anim: {fileID: 703902907}
+  animref: {fileID: 323387645}
   col: {fileID: 323387648}
   coldistrigger: {fileID: 323387648}
-  BMove: 0
-  PushDe: 1
-  PushDx: 1
-  PushDs: 1
-  disabletrig: 1
-  dyn: 1
-  PushDtrig: 1
+  BMove: 1
+  disabletrig: 0
+  dyn: 0
+  PushDtrig: 0
 --- !u!58 &323387647
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -755,6 +766,7 @@ GameObject:
   - component: {fileID: 703902902}
   - component: {fileID: 703902906}
   - component: {fileID: 703902907}
+  - component: {fileID: 703902908}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -968,6 +980,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &703902908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703902901}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b893d9778820a4e9036ea5f90b6a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 703902907}
 --- !u!58 &703902909
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1427,15 +1452,13 @@ MonoBehaviour:
   Speed: 5
   rb: {fileID: 1185775917}
   anim: {fileID: 703902907}
+  animref: {fileID: 1185775922}
   col: {fileID: 1185775921}
   coldistrigger: {fileID: 1185775921}
   BMove: 1
-  PushDe: 1
-  PushDx: 1
-  PushDs: 1
   disabletrig: 1
   dyn: 1
-  PushDtrig: 1
+  PushDtrig: 0
 --- !u!58 &1185775921
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -62,12 +62,15 @@
     <Compile Include="Assets\Scripts\BlockMove.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PushEvent.cs" />
-    <Compile Include="Assets\holefill.cs" />
+    <Compile Include="Assets\Scripts\OldBlockMove.cs" />
+    <Compile Include="Assets\Scripts\holefill.cs" />
     <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\PushDir.cs" />
     <Compile Include="Assets\Artwork\Sprites\Environment\locker.cs" />
+    <Compile Include="Assets\Scripts\BlocksOld.cs" />
     <Compile Include="Assets\Scripts\Blocks.cs" />
-    <Compile Include="Assets\Scripts\OldBlockmove.cs" />
+    <Compile Include="Assets\Scripts\PlayerPush.cs" />
+    <Compile Include="Assets\Scripts\DirDet.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

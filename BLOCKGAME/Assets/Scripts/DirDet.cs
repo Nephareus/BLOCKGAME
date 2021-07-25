@@ -9,6 +9,11 @@ public class DirDet : MonoBehaviour
     private Vector2 vel;
     private int absx;
     private int absy;
+    public bool owr;
+    public bool owl;
+    public bool owu;
+    public bool owd;
+
 
     // Start is called before the first frame update
     void Start()
@@ -31,13 +36,45 @@ public class DirDet : MonoBehaviour
         vel.y = anim.GetFloat("Vertical");
         absx = (int)Mathf.Abs(vel.x);
         absy = (int)Mathf.Abs(vel.y);
-        if (vel.x > 0 && absx > absy)
-        {
-            animref.SetBool("Moveable", true);
+        if (owr == true){
+            if (vel.x > 0 && absx > absy)
+            {
+                animref.SetBool("Moveable", true);
+            }
+            else
+            {
+                animref.SetBool("Moveable", false);
+            }
         }
-        else
-        {
-            animref.SetBool("Moveable", false);
+        if (owl == true){
+            if (vel.x < 0 && absx > absy)
+            {
+                animref.SetBool("Moveable", true);
+            }
+            else
+            {
+                animref.SetBool("Moveable", false);
+            }
+        }
+        if (owu == true){
+            if (vel.y > 0 && absx < absy)
+            {
+                animref.SetBool("Moveable", true);
+            }
+            else
+            {
+                animref.SetBool("Moveable", false);
+            }
+        }
+        if (owd == true){
+            if (vel.y < 0 && absx < absy)
+            {
+                animref.SetBool("Moveable", true);
+            }
+            else
+            {
+                animref.SetBool("Moveable", false);
+            }
         }
     }
 }

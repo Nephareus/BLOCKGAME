@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637525072751414500
-    m_Hash: 1464702239
+      ticks: 637629723074531416
+    m_Hash: 4020770454
   m_LockFileStatus:
     m_FilePath: C:/Users/Nephareus/Documents/BLOCKGAME/BLOCKGAME/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637629708618920152
-    m_Hash: 4086530959
+      ticks: 637629723614001950
+    m_Hash: 1529858593
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Nephareus/Documents/BLOCKGAME/BLOCKGAME/Packages
-m_EditorVersion: 2021.1.0f1 (61a549675243)
+m_EditorVersion: 2021.1.15f1 (e767a7370072)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@5.0.4
+- packageId: com.unity.2d.animation@6.0.4
   testable: 0
   isDirectDependency: 1
-  version: 5.0.4
+  version: 6.0.4
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.animation@5.0.4
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.animation@6.0.4
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -93,13 +93,13 @@ m_ResolvedPackages:
     - 5.0.2
     - 5.0.3
     - 6.0.0-pre.1
+    - 6.0.4
     compatible:
-    - 5.0.3
-    - 6.0.0-pre.1
-    verified: 5.0.3
+    - 6.0.4
+    verified: 6.0.4
   dependencies:
   - name: com.unity.2d.common
-    version: 4.0.3
+    version: 5.0.0
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.2d.sprite
@@ -110,7 +110,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 4.0.3
+    version: 5.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -148,17 +148,17 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 3cf59035d02a34d40d678f2cd5f1c65515a8347e
+    revision: c6acc0f0e19f89c41e384fa1a602555072cbb8cc
     path: 
   unityLifecycle:
-    version: 
+    version: 6.0.4
     nextVersion: 
-- packageId: com.unity.2d.pixel-perfect@4.0.1
+- packageId: com.unity.2d.pixel-perfect@5.0.0
   testable: 0
   isDirectDependency: 1
-  version: 4.0.1
+  version: 5.0.0
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.0
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -167,7 +167,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component
     which ensures your pixel art remains crisp and clear at different resolutions,
     and stable in motion.
@@ -194,10 +194,10 @@ m_ResolvedPackages:
     - 4.0.0
     - 4.0.1
     - 5.0.0-pre.1
+    - 5.0.0
     compatible:
-    - 4.0.1
-    - 5.0.0-pre.1
-    verified: 4.0.1
+    - 5.0.0
+    verified: 5.0.0
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -217,23 +217,23 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637328350910000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
+    revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
     path: 
   unityLifecycle:
-    version: 
+    version: 5.0.0
     nextVersion: 
-- packageId: com.unity.2d.psdimporter@4.0.2
+- packageId: com.unity.2d.psdimporter@5.0.4
   testable: 0
   isDirectDependency: 1
-  version: 4.0.2
+  version: 5.0.4
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.psdimporter@4.0.2
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.psdimporter@5.0.4
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -279,20 +279,20 @@ m_ResolvedPackages:
     - 4.0.1
     - 4.0.2
     - 5.0.0-pre.1
+    - 5.0.4
     compatible:
-    - 4.0.2
-    - 5.0.0-pre.1
-    verified: 4.0.2
+    - 5.0.4
+    verified: 5.0.4
   dependencies:
   - name: com.unity.2d.common
-    version: 4.0.2
+    version: 5.0.0
   - name: com.unity.2d.animation
-    version: 5.0.2
+    version: 6.0.4
   - name: com.unity.2d.sprite
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 4.0.3
+    version: 5.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -306,7 +306,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.2d.animation
-    version: 5.0.4
+    version: 6.0.4
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.modules.animation
@@ -327,16 +327,16 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637366443480000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 4e96f68a7587d87b4fee15d6f88a5d86c2afa9aa
+    revision: c6acc0f0e19f89c41e384fa1a602555072cbb8cc
     path: 
   unityLifecycle:
-    version: 
+    version: 5.0.4
     nextVersion: 
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -390,14 +390,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.spriteshape@5.1.1
+- packageId: com.unity.2d.spriteshape@6.0.1
   testable: 0
   isDirectDependency: 1
-  version: 5.1.1
+  version: 6.0.1
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.spriteshape@5.1.1
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.spriteshape@6.0.1
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -456,24 +456,24 @@ m_ResolvedPackages:
     - 5.0.2
     - 5.1.0
     - 6.0.0-pre.1
+    - 6.0.1
     compatible:
-    - 5.1.0
-    - 6.0.0-pre.1
-    verified: 5.1.0
+    - 6.0.1
+    verified: 6.0.1
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.2d.common
-    version: 4.0.3
+    version: 5.0.0
   - name: com.unity.2d.path
-    version: 4.0.1
+    version: 5.0.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.2d.common
-    version: 4.0.3
+    version: 5.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -487,7 +487,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.2d.path
-    version: 4.0.1
+    version: 5.0.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords:
@@ -515,10 +515,10 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 3cf59035d02a34d40d678f2cd5f1c65515a8347e
+    revision: c6acc0f0e19f89c41e384fa1a602555072cbb8cc
     path: 
   unityLifecycle:
-    version: 
+    version: 6.0.1
     nextVersion: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
@@ -571,26 +571,27 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.3.9
+- packageId: com.unity.collab-proxy@1.5.7
   testable: 0
   isDirectDependency: 1
-  version: 1.3.9
+  version: 1.5.7
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.collab-proxy@1.3.9
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.collab-proxy@1.5.7
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
-  displayName: Unity Collaborate
+  displayName: Version Control
   author:
     name: 
     email: 
     url: 
   category: Editor
   type: 
-  description: Collaborate with your teammates with the official version control
-    system for Unity. Collaborate is a simple way for teams to save, share, and sync
-    your Unity project.
+  description: The Version Control package gives you the ability to use either Collaborate
+    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
+    (beta), a Plastic SCM subscription is required. Learn more about how you can
+    get started for free by visiting plasticscm.com.
   status: 4
   errors: []
   versions:
@@ -612,6 +613,7 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.5.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -623,7 +625,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.3.9
+    - 1.5.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -634,9 +636,13 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.3.9
-  dependencies: []
-  resolvedDependencies: []
+    verified: 1.5.7
+  dependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 2.0.0
+  resolvedDependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 2.0.0
   keywords:
   - vsc
   - version
@@ -660,23 +666,23 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637314349270000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: fa825106f349f996acff22f718845eab46ca2d7c
+    revision: f079d307344f568804d3ea6d781013135e614e45
     path: 
   unityLifecycle:
-    version: 
+    version: 1.5.7
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.5
+- packageId: com.unity.ide.rider@3.0.7
   testable: 0
   isDirectDependency: 1
-  version: 3.0.5
+  version: 3.0.7
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.ide.rider@3.0.5
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.ide.rider@3.0.7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -714,12 +720,16 @@ m_ResolvedPackages:
     - 3.0.1
     - 3.0.2
     - 3.0.3
-    - 3.0.5
+    - 3.0.7
     compatible:
-    - 3.0.5
-    verified: 3.0.5
-  dependencies: []
-  resolvedDependencies: []
+    - 3.0.7
+    verified: 3.0.7
+  dependencies:
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  resolvedDependencies:
+  - name: com.unity.ext.nunit
+    version: 1.0.6
   keywords: []
   registry:
     id: main
@@ -739,17 +749,17 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: c84d2b08574326cd1e40dcae5378c556c6aecad8
+    revision: 3007c42a679bbe2c082c276e8d79279110964553
     path: 
   unityLifecycle:
-    version: 
+    version: 3.0.7
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.7
+- packageId: com.unity.ide.visualstudio@2.0.9
   testable: 0
   isDirectDependency: 1
-  version: 2.0.7
+  version: 2.0.9
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.ide.visualstudio@2.0.9
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -777,16 +787,16 @@ m_ResolvedPackages:
     - 2.0.2
     - 2.0.3
     - 2.0.5
-    - 2.0.7
+    - 2.0.9
     compatible:
-    - 2.0.7
-    verified: 2.0.7
+    - 2.0.9
+    verified: 2.0.9
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.22
+    version: 1.1.27
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -812,10 +822,10 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: dec282022c7a95fada560c36f53da9dd155a142c
+    revision: c7cd4c6319806423b3d918b3e9599244e3993d41
     path: 
   unityLifecycle:
-    version: 
+    version: 2.0.9
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.3
   testable: 0
@@ -877,7 +887,7 @@ m_ResolvedPackages:
     revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
     path: 
   unityLifecycle:
-    version: 
+    version: 1.2.3
     nextVersion: 
 - packageId: com.unity.inputsystem@1.0.2
   testable: 0
@@ -963,14 +973,14 @@ m_ResolvedPackages:
     revision: 041def76515febb36a83d1f928cfb7aefb85176c
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.2
     nextVersion: 
-- packageId: com.unity.test-framework@1.1.22
+- packageId: com.unity.test-framework@1.1.27
   testable: 0
   isDirectDependency: 1
-  version: 1.1.22
+  version: 1.1.27
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.test-framework@1.1.22
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.test-framework@1.1.27
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1011,10 +1021,10 @@ m_ResolvedPackages:
     - 1.1.18
     - 1.1.19
     - 1.1.20
-    - 1.1.22
+    - 1.1.27
     compatible:
-    - 1.1.22
-    verified: 1.1.22
+    - 1.1.27
+    verified: 1.1.27
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1050,17 +1060,17 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 56c667cbc326a1cbab8dfd7ebc693a1121d0abe1
+    revision: c2f2cc9b7ea61d42964257363595dff5e8c47c42
     path: 
   unityLifecycle:
-    version: 
+    version: 1.1.27
     nextVersion: 
-- packageId: com.unity.textmeshpro@3.0.4
+- packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
-  version: 3.0.4
+  version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.textmeshpro@3.0.4
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1161,10 +1171,10 @@ m_ResolvedPackages:
     - 3.0.0
     - 3.0.1
     - 3.0.3
-    - 3.0.4
+    - 3.0.6
     compatible:
-    - 3.0.4
-    verified: 3.0.4
+    - 3.0.6
+    verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1199,17 +1209,17 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: e2f8dffb26de9a130d5b2140d83891d9a7825330
+    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
     path: 
   unityLifecycle:
-    version: 
+    version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.5.2
+- packageId: com.unity.timeline@1.5.5
   testable: 0
   isDirectDependency: 1
-  version: 1.5.2
+  version: 1.5.5
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.timeline@1.5.2
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.timeline@1.5.5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1275,10 +1285,10 @@ m_ResolvedPackages:
     - 1.5.1-pre.1
     - 1.5.1-pre.2
     - 1.5.1-pre.3
-    - 1.5.2
+    - 1.5.5
     compatible:
-    - 1.5.2
-    verified: 1.5.2
+    - 1.5.5
+    verified: 1.5.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1321,10 +1331,10 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 7bdad7882133452ed8b2cd5bfca556726d3e7a64
+    revision: 4bb067f24973c7cfa1e4a453615e43083ce6855d
     path: 
   unityLifecycle:
-    version: 
+    version: 1.5.5
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
@@ -1389,7 +1399,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -1440,7 +1450,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
@@ -1490,7 +1500,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
@@ -1541,7 +1551,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
@@ -1592,7 +1602,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
@@ -1643,7 +1653,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
@@ -1698,7 +1708,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
@@ -1757,7 +1767,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
@@ -1809,7 +1819,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
@@ -1860,7 +1870,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
@@ -1911,7 +1921,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
@@ -1962,7 +1972,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
@@ -2013,7 +2023,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
@@ -2064,7 +2074,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
@@ -2119,7 +2129,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
@@ -2170,7 +2180,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
@@ -2229,7 +2239,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
@@ -2283,7 +2293,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
@@ -2334,7 +2344,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
@@ -2401,7 +2411,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
@@ -2452,7 +2462,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
@@ -2511,7 +2521,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
@@ -2562,7 +2572,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
@@ -2621,7 +2631,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
@@ -2680,7 +2690,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
@@ -2739,7 +2749,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
@@ -2814,7 +2824,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
@@ -2869,7 +2879,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
@@ -2932,7 +2942,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
@@ -2997,7 +3007,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
@@ -3048,7 +3058,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
@@ -3111,7 +3121,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
@@ -3282,7 +3292,66 @@ m_ResolvedPackages:
     revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.6
+    nextVersion: 
+- packageId: com.unity.nuget.newtonsoft-json@2.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0
+  source: 1
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 12.0.2.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.0.0
+    compatible:
+    - 2.0.0
+    verified: 2.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+    path: 
+  unityLifecycle:
+    version: 2.0.0
     nextVersion: 
 - packageId: com.unity.mathematics@1.2.1
   testable: 0
@@ -3334,14 +3403,14 @@ m_ResolvedPackages:
     revision: 71412d94b7a0b0fdbb3195a5e6559bf6a761e91a
     path: 
   unityLifecycle:
-    version: 
+    version: 1.2.1
     nextVersion: 
-- packageId: com.unity.2d.common@4.0.3
+- packageId: com.unity.2d.common@5.0.0
   testable: 0
   isDirectDependency: 0
-  version: 4.0.3
+  version: 5.0.0
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.common@4.0.3
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.common@5.0.0
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -3357,10 +3426,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 4.0.3
+    - 5.0.0
     compatible:
-    - 4.0.3
-    verified: 4.0.3
+    - 5.0.0
+    verified: 5.0.0
   dependencies:
   - name: com.unity.2d.sprite
     version: 1.0.0
@@ -3399,17 +3468,17 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c97def465b1932276762fc13f4cfee58da99d5e9
+    revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
     path: 
   unityLifecycle:
-    version: 
+    version: 5.0.0
     nextVersion: 
-- packageId: com.unity.2d.path@4.0.1
+- packageId: com.unity.2d.path@5.0.0
   testable: 0
   isDirectDependency: 0
-  version: 4.0.1
+  version: 5.0.0
   source: 1
-  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.path@4.0.1
+  resolvedPath: C:\Users\Nephareus\Documents\BLOCKGAME\BLOCKGAME\Library\PackageCache\com.unity.2d.path@5.0.0
   assetPath: Packages/com.unity.2d.path
   name: com.unity.2d.path
   displayName: 2D Path
@@ -3425,10 +3494,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 4.0.1
+    - 5.0.0
     compatible:
-    - 4.0.1
-    verified: 4.0.1
+    - 5.0.0
+    verified: 5.0.0
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3452,8 +3521,8 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
+    revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
     path: 
   unityLifecycle:
-    version: 
+    version: 5.0.0
     nextVersion: 
